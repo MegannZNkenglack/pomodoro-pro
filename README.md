@@ -3,7 +3,7 @@
 A sleek, responsive Pomodoro Timer built to improve productivity and time management. This project demonstrates core web development fundamentals, including DOM manipulation, state management, and CSS layout design.
 
 ##  Live Demo
-[[Link to your GitHub Pages URL here](https://megannznkenglack.github.io/pomodoro-pro/)]
+[[Link to Pomodoro Pro](https://megannznkenglack.github.io/pomodoro-pro/)]
 
 ##  Features
 * **Custom Intervals:** Switch between Work (25m), Short Break (5m), and Long Break (15m) modes.
