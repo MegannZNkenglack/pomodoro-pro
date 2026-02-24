@@ -1,0 +1,95 @@
+/*
+  FILE: style.css
+  DESCRIPTION: Styling for the Pomodoro Pro app.
+  Focuses on modern typography, centering, and interactive feedback.
+*/
+
+:root {
+    --primary-color: #e74c3c; /* Tomato Red */
+    --bg-color: #f4f7f6;
+    --text-color: #2c3e50;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: var(--white);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+/* Mode Switcher Buttons */
+.modes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.modes button {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modes button.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Large Clock Display */
+.timer-display {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+/* Control Buttons (Start/Reset) */
+.controls button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.1s;
+}
+
+#start-btn {
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+}
+
+#start-btn:active {
+    transform: scale(0.95);
+}
+
+.stats {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
